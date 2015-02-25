@@ -22,13 +22,13 @@
 	text-align: center;
 }
 
-h1 {
+#h1 {
 	font-size: 68px;
 	font-weight: 100;
 	margin: 30px 0;
 }
 
-h2 {
+#h2 {
 	font-size: 17px;
 	font-weight: 300;
 	margin: 0;
@@ -47,8 +47,9 @@ body {
 }
 
 #contentarea {
-	padding: 50px 20px;
+	padding: 10px 20px;
 	text-align: center;
+	color: #6F6F6F;
 }
 
 .spacer {
