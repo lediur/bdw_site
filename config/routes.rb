@@ -55,5 +55,7 @@ Rails.application.routes.draw do
   #   end
 
   root 'static#land1'
+  get 'lots' => 'static#land1'
+  get 'streets' => 'static#land2'
 
 end
