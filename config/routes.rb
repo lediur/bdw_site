@@ -54,7 +54,7 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
-  root 'static#land1'
+  root 'static#land3'
   get 'lots' => 'static#land1'
   get 'streets' => 'static#land2'
 
