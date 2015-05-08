@@ -63,17 +63,17 @@ body {
 
 
 
-// @font-face {
-// 	font-family: hero_light;
-// 	src: font-url('fonts/hero_light.otf') format('opentype');
-// 	font-weight: lighter;
-// }
+@font-face {
+	font-family: hero_light;
+	src: font-url('fonts/hero_light.otf') format('opentype');
+	font-weight: lighter;
+}
 
-// @font-face {
-// 	font-family: hero;
-// 	src: font-url('fonts/hero.otf') format('opentype');
-// 	font-weight: normal;
-// }
+@font-face {
+	font-family: hero;
+	src: font-url('fonts/hero.otf') format('opentype');
+	font-weight: normal;
+}
 
 // // @include font-face("hero", font-files("hero.otf"));
 
