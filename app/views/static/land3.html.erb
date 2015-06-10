@@ -14,6 +14,7 @@
            </div>
             <div class="navbar-collapse collapse" id="example-navbar-collapse">
                 <ul class="nav navbar-nav navbar-right header-link">
+                    <li><%= link_to "Product", "#product", :class => "header-link" %></li>
                     <li><%= link_to "Launch", "#launch", :class => "header-link" %></li>
                     <li><%= link_to "Team", "#team", :class => "header-link" %></li>
                     <li><%= link_to "How It Works", "#how-it-works", :class => "header-link" %></li>
@@ -56,9 +57,13 @@
 </div>
 
 
-<div class="land-panel">
+
+<div class="land-panel" id="product">
     <div class="container">
-        <iframe src="https://player.vimeo.com/video/130236006" width="750" height="421.5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/130236006">ConnectedDrone Promo</a> from <a href="https://vimeo.com/user40566694">Shaurya Saluja</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+        <div class="row">
+            <h3>Promo</h3>
+        </div>
+        <iframe src="https://player.vimeo.com/video/130236006" width="750" height="421.5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/130236006">ConnectedDrone Promo</a> from <a href="https://vimeo.com/user40566694">Shaurya Saluja</a></p>
     </div>
 </div>
 
@@ -185,10 +190,11 @@
             </div>  
         </div>
         <br>
-        <div class="row box-pad">
+        <div class="row how-to">
             <div class="col-md-3">
                 <div class="text-center pad-bottom">
                     <i class="fa fa-car fa-5x"></i>
+                    <img src="parking_map.png" />
                     <i class="fa fa-caret-right fa-3x"></i>
                 </div>
                 Get close to a parking lot
@@ -196,6 +202,7 @@
             <div class="col-md-3">
                 <div class="text-center pad-bottom">
                     <i class="fa fa-plane fa-5x"></i>
+                    <img src="dji_phantom_tr.png" />
                     <i class="fa fa-caret-right fa-3x"></i>
                 </div>
                 Activate drone to take off and provide a live video feed
